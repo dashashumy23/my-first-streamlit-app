@@ -27,7 +27,7 @@ with tab1:
             st.write('---')
             st.info("Контакти для зв'язку:")
             st.markdown("- 🐙 GitHub: [Мій Профіль](https://github.com/dashashumy23)")
-            st.markdown("[📧 Надіслати Email](mailto:dasha.shumy.23.09@gmail.com)")
+            st.markdown("- [📧 Надіслати Email](mailto:dasha.shumy.23.09@gmail.com)")
 
 with tab2:
     st.header("Корисний інструмент: Конвертер температури")
