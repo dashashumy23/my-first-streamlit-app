@@ -30,9 +30,7 @@ with tab1:
             st.markdown("- [📧 Надіслати Email](mailto:dasha.shumy.23.09@gmail.com)")
        
         with st.container():
-            # Автоматично створюємо QR-код за допомогою безкоштовного API
-            # Замініть URL у параметрі data на посилання на ваш реальний Streamlit-додаток!
-            my_app_url = "https://your-app-name.streamlit.app"
+            my_app_url = "https://my-first-app-app-esgdg4vnfsmenqgshw4nxx.streamlit.app/p"
             qr_api_url = f"https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={my_app_url}"
             
             with col1:
