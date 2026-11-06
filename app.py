@@ -28,6 +28,16 @@ with tab1:
             st.info("Контакти для зв'язку:")
             st.markdown("- 🐙 GitHub: [Мій Профіль](https://github.com/dashashumy23)")
             st.markdown("- [📧 Надіслати Email](mailto:dasha.shumy.23.09@gmail.com)")
+       
+        with st.container():
+            # Автоматично створюємо QR-код за допомогою безкоштовного API
+            # Замініть URL у параметрі data на посилання на ваш реальний Streamlit-додаток!
+            my_app_url = "https://your-app-name.streamlit.app"
+            qr_api_url = f"https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={my_app_url}"
+            
+            with col1:
+                st.write("Скануй мене:")
+                st.image(qr_api_url, caption="QR-код мого додатка")
 
 with tab2:
     st.header("Корисний інструмент: Конвертер температури")
